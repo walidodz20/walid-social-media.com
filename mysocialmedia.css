@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    text-align : center;
+    font-family: 'Poppins' ,sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+}
+.containers{
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem .5rem;
+    padding: 2.5rem 1rem;
+    transition: all .5s;
+    box-shadow: 0 0 2px #00000073;
+    border-radius: 5px;
+    
+}
+
+.fa-square-facebook{
+    margin-top: 15px;
+    color: blue;
+    font-size: 4rem;
+    
+   
+
+}
+
+.fa-instagram{
+    margin-top: 15px;
+    color: #fc03fc;
+    font-size: 4rem;
+}
+
+.fa-youtube{
+    margin-top: 15px;
+    color: red;
+    font-size: 4rem;
+}
+
+.fa-square-twitter{
+    margin-top: 15px;
+    color: rgb(0, 172, 238);
+    font-size: 4rem;
+    
+   
+
+}
+.name-fb{
+    color: blue;
+}
+.name-insta{
+    color:#fc03fc ;
+}
+.name-ytb{
+    color: red;
+        }
+.name-twitter{
+    color:rgb(0, 172, 238) ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.containers:hover{
+    box-shadow:  0  0 13px black;
+    color: blue;
+}
+
+
